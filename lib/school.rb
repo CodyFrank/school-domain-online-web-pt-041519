@@ -19,5 +19,6 @@ class School
     roster.map do |grade, array|
       roster[grade] = array.sort.flatten
     end
+    roster
   end
 end
