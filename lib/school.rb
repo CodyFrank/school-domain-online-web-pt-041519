@@ -18,7 +18,7 @@ class School
   def sort
     sorted_array = []
     roster.map do |grade, array|
-      array.sort
+      array.sort.flatten
     end
   end
 end
