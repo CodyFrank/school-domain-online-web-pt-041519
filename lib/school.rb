@@ -19,7 +19,6 @@ class School
     sorted_array = []
     roster.each do |grade, array|
       array.sort
-      end
     end
   end
 end
