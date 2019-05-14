@@ -1,14 +1,13 @@
-
+require "pry"
 class School
+  attr_reader :name
+  
+  roster = {}
+  
   def initialize(name)
     @name = name
-  end
-  def roster
-    hash = {}
-  end
-  def add_student(name, grade)
-    roster[grade, [name]]
   end
   
   
 end
+
