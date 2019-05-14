@@ -20,5 +20,6 @@ class School
     roster.each do |grade, array|
       sorted_array << array.sort
     end
+    puts sorted_array
   end
 end
