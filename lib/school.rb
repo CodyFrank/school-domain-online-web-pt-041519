@@ -18,7 +18,8 @@ class School
   def sort
     sorted_array = []
     roster.each do |grade, array|
-      puts array
+      array.sort
+      end
     end
   end
 end
