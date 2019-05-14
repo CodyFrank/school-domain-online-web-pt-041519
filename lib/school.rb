@@ -11,6 +11,6 @@ class School
   end
   def add_student(name, grade)
 
-    puts roster
+    puts roster[:name] = grade
   end
 end
